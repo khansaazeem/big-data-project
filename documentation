@@ -1,0 +1,124 @@
+# 📊 Superstore Sales Analysis (PySpark Big Data Project)
+
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![PySpark](https://img.shields.io/badge/PySpark-Big%20Data-orange.svg)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow.svg)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green.svg)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-blueviolet.svg)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen.svg)
+
+---
+
+## 🚀 Overview
+This project performs **big data analysis on the Superstore dataset** using **Apache PySpark** and generates insights through **data visualization tools like Matplotlib and Seaborn**.
+
+It focuses on analyzing:
+- 📈 Sales performance
+- 🌍 Region-wise revenue
+- 🏆 Top products
+- 🗺️ State-wise distribution
+
+---
+
+## 👩‍💻 Team Members
+
+| # | Name | Roll Number |
+|--|------|------------|
+| 01 | Khansa Azeem | 2023-AG-9564 |
+
+---
+
+## 📂 Dataset
+- 📊 Superstore Sales Dataset (`train.csv`)
+- 📦 ~9,800 records
+- 🧾 18 columns (Orders, Sales, Products, Regions, States)
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚡ Apache Spark (PySpark)
+- 🐍 Python
+- 🐼 Pandas
+- 📊 Matplotlib
+- 🎨 Seaborn
+- 📓 Jupyter Notebook / Python Script
+
+---
+
+## ⚙️ Project Workflow
+
+### 🔹 1. Environment Setup
+- Installed required Python libraries
+- Initialized **SparkSession** for distributed computing
+
+---
+
+### 🔹 2. Data Loading
+- Loaded dataset using PySpark CSV reader
+- Handled malformed and multiline data
+- Created SQL temporary view for queries
+
+---
+
+### 🔹 3. Sales Analysis
+Calculated key metrics:
+- 💰 Total Sales
+- 🧾 Total Orders
+- 📊 Average Order Value
+
+---
+
+### 🔹 4. Region Analysis
+- Grouped sales by region
+- Identified highest revenue region
+- Compared regional performance
+
+---
+
+### 🔹 5. Product Analysis
+- Identified **Top 10 Products**
+- Based on total revenue
+- Ranked in descending order
+
+---
+
+### 🔹 6. State Analysis
+- Extracted **Top 5 States by Sales**
+- Compared geographic performance
+
+---
+
+### 🔹 7. Data Visualization
+Created professional charts:
+- 📊 Region-wise Bar Chart  
+- 🥧 Region-wise Pie Chart  
+- 📊 Top Products (Horizontal Bar Chart)  
+- 📊 Top States Bar Chart  
+
+---
+
+## 📊 Key Insights
+
+- 💰 **Total Sales:** $2,261,536.78  
+- 🧾 **Total Orders:** 9,800  
+- 🌍 **Top Region:** West  
+- 🏆 **Top Product:** Canon imageCLASS 2200 Advanced Copier  
+- 📍 Strong sales concentration in few states & products  
+
+---
+
+## 📸 Visual Outputs
+
+The project generates the following visuals:
+
+| Chart | File |
+|------|------|
+| Region Sales Bar | `region_bar.png` |
+| Region Sales Pie | `region_pie.png` |
+| Top Products | `top_products_horizontal.png` |
+| Top States | `top_states.png` |
+
+---
+
+## 📁 Project Structure
